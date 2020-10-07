@@ -2,6 +2,7 @@
 #define UNIT_H
 
 #include "common.h"
+#include "Definition.h"
 
 class Unit
 {
@@ -12,14 +13,7 @@ public:
 	void PrintStats();
 
 private:
-	int m_hp;
-	int m_str;
-	int m_mag;
-	int m_tec;
-	int m_spd;
-	int m_def;
-	int m_luc;
-	int m_mde;
+	Status status;
 };
 
 
