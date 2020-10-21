@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="base.cpp" />
     <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="Practice03_02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base.h" />
     <ClInclude Include="enemy.h" />
+    <ClInclude Include="EnemyManager.h" />
     <ClInclude Include="player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
