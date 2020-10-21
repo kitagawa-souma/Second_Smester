@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "player.h"
 
 Player::Player()
@@ -16,4 +15,11 @@ void Player::Exec()
 
 void Player::Draw()
 {
+}
+
+bool Player::CheckHit(int x, int y, int width, int height)
+{
+	//âºÇ…ìñÇΩÇÁÇ»Ç©Ç¡ÇΩÇ∆Ç∑ÇÈ
+	printf("Player:ìñÇΩÇËÇ‹ÇπÇÒÇ≈ÇµÇΩÅI\n");
+	return false;
 }

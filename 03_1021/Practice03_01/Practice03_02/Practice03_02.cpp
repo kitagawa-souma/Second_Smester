@@ -20,13 +20,17 @@ int main()
 	Base* pBase = nullptr;
 
 	printf("-------------\n");
-	printf("PRACTICE02_04\n");
+	printf("PRACTICE03_02\n");
 	printf("-------------\n");	
 
 	pBase = &player;
+	pBase->CheckHit(10, 10, 20, 30);
+	//player.CheckHit(10, 10, 20, 30);
 	PrintStatus("Player", pBase);
 
 	pBase = &enemy;
+	pBase->CheckHit(10, 10, 20, 30);
+	//enemy.CheckHit(10, 10, 20, 30);
 	PrintStatus("Enemy", pBase);
 
 	system("pause");

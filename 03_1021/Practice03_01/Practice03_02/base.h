@@ -9,6 +9,9 @@ public:
 	virtual ~Base();
 
 public:
+	//ˆø”‚Ì‹éŒ`î•ñ‚ÆA©•ª‚ª“–‚½‚Á‚Ä‚¢‚é‚©”»’è
+	virtual bool CheckHit(int x, int y, int width, int height);
+
 	void SetHp(int hp);
 	void SetPos(float x, float y);
 	void SetMoveSpeed(float speed);
@@ -19,10 +22,13 @@ public:
 	float GetMoveSpeed();
 
 private:
-	int		m_Hp		= 0;
-	float	m_PosX		= 0.0f;
-	float	m_PosY		= 0.0f;
-	float	m_MoveSpeed	= 0.0f;
+	int		m_Hp;
+	float	m_PosX;
+	float	m_PosY;
+	float	m_MoveSpeed;
+
+	int m_Width;
+	int m_Height;
 };
 
 #endif // !BASE_H

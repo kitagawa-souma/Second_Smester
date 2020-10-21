@@ -18,6 +18,9 @@ public:
 	void Exec();
 	void Draw();
 
+public:
+	//ˆø”‚Ì‹éŒ`î•ñ‚ÆA©•ª‚ª“–‚½‚Á‚Ä‚¢‚é‚©”»’è
+	bool CheckHit(int x, int y, int width, int height);
 };
 
 #endif // !PLAYER_H
