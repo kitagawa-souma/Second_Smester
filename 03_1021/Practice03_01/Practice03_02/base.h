@@ -6,7 +6,13 @@ class Base
 {
 public:
 	Base();
-	virtual ~Base();
+	virtual ~Base();	//基底クラスのデストラクタにはvirtualを必ずつける(かなり重要)
+
+public:
+	//継承先で、それぞれ処理の違うことがわかっている関数を
+	//純粋仮想関数として基底クラスに宣言
+	virtual void Exec() = 0;
+	virtual void Draw() = 0;
 
 public:
 	//引数の矩形情報と、自分が当たっているか判定

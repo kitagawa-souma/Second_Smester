@@ -4,10 +4,12 @@
 Enemy::Enemy()
 {
 	m_Routine = 0;
+	printf("Enemy:コンストラクタ\n");
 }
 
 Enemy::~Enemy()
 {
+	printf("Enemy:デストラクタ\n");
 }
 
 void Enemy::Exec()
