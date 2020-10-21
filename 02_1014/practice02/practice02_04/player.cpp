@@ -1,6 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "player.h"
+
+Player::Player()
+{
+	m_Hp = 0;
+	m_PosX = 0.0f;
+	m_PosY = 0.0f;
+	m_MoveSpeed = 0.0f;
+}
+
+Player::~Player()
+{
+}
 
 void Player::SetHp(int hp)
 {

@@ -31,18 +31,5 @@ private:
 	float	m_MoveSpeed;
 };
 
-Enemy::Enemy()
-{
-	m_Hp = 0;
-	m_PosX = 0;
-	m_PosY = 0;
-	m_MoveSpeed = 0;
-}
-
-Enemy::~Enemy()
-{
-	Exec();
-	Draw();
-}
 
 #endif // !ENEMY_H

@@ -1,6 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "enemy.h"
+
+Enemy::Enemy()
+{
+	m_Hp = 0;
+	m_PosX = 0.0f;
+	m_PosY = 0.0f;
+	m_MoveSpeed = 0.0f;
+}
+
+Enemy::~Enemy()
+{
+}
 
 void Enemy::SetHp(int hp)
 {

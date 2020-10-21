@@ -31,18 +31,5 @@ private:
 	float	m_MoveSpeed;
 };
 
-Player::Player()
-{
-	m_Hp = 0;
-	m_PosX = 0;
-	m_PosY = 0;
-	m_MoveSpeed = 0;
-}
-
-Player::~Player()
-{
-	Exec();
-	Draw();
-}
 
 #endif // !PLAYER_H

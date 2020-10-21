@@ -18,11 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="Practice03_01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="player.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d2f7cd0e-4aa2-43d7-84e7-9c0c150d4dcd}</ProjectGuid>
-    <RootNamespace>practice0204</RootNamespace>
+    <ProjectGuid>{cc2320bf-ae41-4b06-83e9-c1bac7b97c4b}</ProjectGuid>
+    <RootNamespace>Practice0301</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,15 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="enemy.cpp" />
-    <ClCompile Include="player.cpp" />
-    <ClCompile Include="practice02_04.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="enemy.h" />
-    <ClInclude Include="player.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
