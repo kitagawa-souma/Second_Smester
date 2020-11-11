@@ -67,6 +67,7 @@ int  main()
 	//*pNonConst = 400; //グローバル変数の場合例外がスルーされる
 
 	//MSDocによると、constを外した領域絵のアクセスは未定義
+	//https://docs.microsoft.com
 
 	return 0;
 }
