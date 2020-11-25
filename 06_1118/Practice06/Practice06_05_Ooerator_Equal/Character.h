@@ -44,7 +44,7 @@ public:
 	//代入演算子(=)のoperator
 	Character& operator = (Character& ch);
 
-	JOB GetJob() const { m_Job; }
+	JOB GetJob() const { return m_Job; }
 
 private:
 	JOB m_Job;
